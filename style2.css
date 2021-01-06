@@ -18,20 +18,11 @@ ul {
     float: right;
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
     display: inline;
     font-size: 150%;
 }
 il {
     display: inline;
     font-size: 150%;
-}
-.ul: hover {
-    background-color: red;
-}
-button {
-    background-color: chartreuse;                                                                                                                   border-color: chartreuse;
-}
-iframe {
-    font-family: cursive;
 }

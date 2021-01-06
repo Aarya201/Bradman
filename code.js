@@ -13,3 +13,15 @@ function s() {
 function f() {
     document.getElementById("f").innerHTML = "<h2>His test Average of 99.94 has been the highest achievment by anyone in any major sport</h2>";
 }
+function ntr() {
+    window.location.href = "records.html";
+}
+function ntrp() {
+    window.location.href = "relatedpeople.html";
+}
+function ntb() {
+    window.location.href = "books.html";
+}
+function ntpi() {
+    window.location.href = "personalinfo.html";
+}

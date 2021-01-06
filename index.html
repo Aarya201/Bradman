@@ -1,9 +1,29 @@
 <html>
-    <head><title>Don Bradman</title></head>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <style>
+            ul.ul li {
+                display: inline;
+            }
+        </style>
+        <title>Don Bradman</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap">
     <script src="code.js"></script>
+    <a href="records.html"></a>
+    <a href="relatedpeople.html"></a>
+    <a href="books.html"></a>
+    <a href="personalinfo.html"></a>
+    </head>
     <body>
-        <section><h1>Don Bradman</h1></section> 
+        <ul class="ul">
+        <span><li id="home"><button>Home   </button></li></span>
+        <Span><li id="Records" onclick="ntr()"><button>Records   </button></li></Span>
+        <Span><li id="Related People" onclick="ntrp()"><button>Related People   </button></li></Span>
+        <span><li id="Books" onclick="ntb()"><button>Books   </button></li></span>
+        <span><li id="Personal Info" onclick="ntpi()"><button>Personal Info.</button></li></span>
+        <span><li id="Videos" onclick="ntv()"><button>Videos</button></li></span>
+        </ul>
+        <section><h1 >Don Bradman</h1></section> 
         <section><img id="sdb" onclick="ci()" src="https://t1.gstatic.com/images?q=tbn:ANd9GcRi2A8kBDsfwlszN9-2fHaX_u6aJkwQ7vE027Vsnnjbo0ezoMXNjpcwTTVD_x2Z"></section>
         <section><h2>Sir Donald George Bradman, AC, nicknamed "The Don", was an Australian international cricketer, widely acknowledged as the greatest batsman of all time. Bradman's career Test batting average of 99.94 has been cited as the greatest achievement by any sportsman in any major sport</h2></section>
         <button onclick="r()">Runs</button>
@@ -15,5 +35,17 @@
         <button onclick="f()">Fact</button>
         <div><label id="f"><h2></h2></label></div>
         <button onclick="window.open('https://www.proprofs.com/quiz-school/story.php?title=quiz-on-sir-don-bradman')">Quiz</button>
+        <section id="Video">
+            <h1>Video</h1>
+        <div class="Line"></div>
+        <br>
+        <iframe width="1280" height="723" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="book">
+        <h1>Books</h1>
+        <div class="book">
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Don_Bradman#Test_career" frameborder="0"></iframe>
+        </div>
+        </section>
     </body>
 </html>

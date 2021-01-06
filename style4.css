@@ -3,8 +3,8 @@ html {
     text-align: center;
 }
 img {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
 }
 button {
     width: 100px;
@@ -31,7 +31,4 @@ il {
 }
 button {
     background-color: chartreuse;                                                                                                                   border-color: chartreuse;
-}
-iframe {
-    font-family: cursive;
 }

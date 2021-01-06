@@ -3,13 +3,12 @@ html {
     text-align: center;
 }
 img {
-    width: 700px;
-    height: 700px;
+    width: 450px;
+    height: 450px;
 }
 button {
     width: 100px;
     height: 100px;
-     border-width: 0px;
 }
 h1 {
     font-family: 'Redressed', cursive;
@@ -31,7 +30,5 @@ il {
 }
 button {
     background-color: chartreuse;                                                                                                                   border-color: chartreuse;
-}
-iframe {
-    font-family: cursive;
+    border-width: 0px;
 }
