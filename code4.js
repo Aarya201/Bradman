@@ -25,3 +25,9 @@ function grfc() {
 function grac() {
     window.open('https://www.goodreads.com/book/show/5644351-art-of-cricket')
 }
+function ntc() {
+    window.location.href = "contact.html";
+}
+function ntv() {
+    window.location.href = "videos.html";
+}

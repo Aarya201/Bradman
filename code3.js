@@ -10,3 +10,9 @@ function ntb() {
 function ntbi() {
     window.location.href = "personalinfo.html";
 }
+function ntc() {
+    window.location.href = "contact.html";
+}
+function ntv() {
+    window.location.href = "videos.html";
+}

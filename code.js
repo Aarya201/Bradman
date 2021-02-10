@@ -25,3 +25,12 @@ function ntb() {
 function ntpi() {
     window.location.href = "personalinfo.html";
 }
+function ht() {
+    document.getElementById('rec').innerHTML.style.textUnderline="red";  
+}
+function ntc() {
+    window.location.href = "contact.html";
+}
+function ntv() {
+    window.location.href = "videos.html";
+}
